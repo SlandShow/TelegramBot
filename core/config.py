@@ -1,0 +1,1 @@
+token = 'xxxxxxxxxxxx' # id бота
