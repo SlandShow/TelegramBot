@@ -6,8 +6,8 @@ bot = telebot.TeleBot(config.token)
 
 # создаем handler (обработчик событий)
 @bot.message_handler(content_types=["text"])
-def repeat_all_messages(message):  
-    bot.send_message(message.chat.id, message.text)
+def repeat_all_messages(message):
+    bot.send_message(message.chat.id, message.text[::])
 
 # бесконечный цикл
 if __name__ == '__main__':
