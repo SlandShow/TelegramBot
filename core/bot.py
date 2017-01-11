@@ -35,6 +35,6 @@ def repeat_all_messages(message): # Название функции не игр�
     print(message.text)
     checkGreeting(message)
 
-
+# Цикл
 if __name__ == '__main__':
      bot.polling(none_stop=True)
