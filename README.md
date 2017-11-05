@@ -1,6 +1,7 @@
 # TelegramBot
-Пройстой бот для Telegram, который написан с помощью открытого API.
+A simple bot for Telegram, which is written using an open API.
 
-### Для того, чтобы бот работал, необходимо:
-1) Запустить проект в IDE (Или с помощью консоли)
+### Tutorial:
+1) Run project via IDE or console.
+2) Check internet connection.
 
